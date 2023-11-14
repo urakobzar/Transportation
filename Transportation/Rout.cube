@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f66e2321-48a1-4de9-a76b-188d0aa2a90c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7c67afae-78fc-4ccb-9cf8-5b69f6eec705" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Rout</ID>
   <Name>Rout</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -126,45 +126,53 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source dwd:design-time-name="9b9aac4f-9045-47bc-8c93-ff01b9bd969b">
-    <DataSourceViewID>Transportation</DataSourceViewID>
-  </Source>
   <Dimensions>
-    <Dimension dwd:design-time-name="12210298-b558-4745-8e5e-fc05644527e6">
+    <Dimension dwd:design-time-name="4edefadb-eec3-4592-a637-7669e0469a29">
       <ID>Bus</ID>
       <Name>Bus</Name>
       <DimensionID>Bus</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0622309b-1524-4278-91ff-0fcb9383935f">
+        <Attribute dwd:design-time-name="3bdc347b-9a9d-4550-8bbc-e701ed09d7cb">
           <AttributeID>ID Bus</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="252d98e3-4aa0-4b15-80ac-06997de9b7ba">
-          <AttributeID>Id Seats</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="3ea68cc0-4ff9-4fe3-a727-47df49ecd582">
-          <AttributeID>Id Driver</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="33ce00d4-d181-44c8-8ac4-79920e0e2a82">
+        <Attribute dwd:design-time-name="c986ff1b-3623-4807-a481-ef6e0422448a">
           <AttributeID>Number</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="4a02609a-8245-40f7-bdbd-fcee8a64b1d7">
+          <AttributeID>Seat Places</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf439552-72d2-45eb-befd-54a3eb242f2d">
+          <AttributeID>Brand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="640e6e06-f92a-4377-b88c-298df7382778">
+          <AttributeID>Общее Число Мест</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c66726a2-dec9-4775-91d4-22422fa47143">
+          <AttributeID>Issue Year</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fd994662-89f1-4d77-b242-508f24b07207">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="a39d0c1c-5cce-4b02-b7d2-1248e6ba0ef4">
+    <Dimension dwd:design-time-name="d1529305-641f-472f-b05a-14e209017b6b">
       <ID>Customer</ID>
       <Name>Customer</Name>
       <DimensionID>Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4c5815f1-6cb0-441c-9d85-89e490cea735">
+        <Attribute dwd:design-time-name="e9ee6cde-1d20-4676-a7eb-4978d0a9008d">
           <AttributeID>ID Customer</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8155ebd3-20ff-460b-9bf1-6bf0d77ace4f">
+        <Attribute dwd:design-time-name="c8cd0bfe-edcb-4429-ba7c-6af9d39dde01">
           <AttributeID>Surname</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="8310bba1-7773-4814-8683-b8c55a2ae4be">
+    <MeasureGroup dwd:design-time-name="5b519d09-4516-4b10-81d1-a6d99a56379d">
       <ID>Rout</ID>
       <Name>Rout</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -172,65 +180,65 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="3e4ce94f-bace-43b1-a6e8-339a9b96f7f3">
+        <Measure dwd:design-time-name="58309c1d-ca33-4036-a9ad-b411c1c28047">
           <ID>Fare</ID>
           <Name>Fare</Name>
-          <Source dwd:design-time-name="523345ac-ffca-4636-bcb6-926a5a12aa47">
+          <Source dwd:design-time-name="db4eefe5-4d96-4339-a332-31732ea07f5f">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4d67860a-3460-484c-bc1b-ab099d7b92d8">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="586c67ef-2e2d-4f0f-a21f-8908cd507be4">
               <TableID>dbo_Rout</TableID>
               <ColumnID>fare</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="99227a72-3c2a-4d09-a0e2-089c2d785a3b">
+        <Measure dwd:design-time-name="a2a74c20-5494-40cb-86d8-557f29c25050">
           <ID>Число Rout</ID>
           <Name>Число Rout</Name>
-          <Source dwd:design-time-name="0f71a685-02f7-4214-a9bd-3160901b00af">
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ae7cc801-d0e3-4f29-895e-22bc121cebb6">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2ae1b2bf-19cf-4d52-9531-796a7c4be0e0">
+            <Source xsi:type="RowBinding" dwd:design-time-name="4aba75df-66ad-4b2d-8d71-f0505cd75474">
               <TableID>dbo_Rout</TableID>
             </Source>
           </Source>
-          <AggregateFunction>Count</AggregateFunction>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ae91b377-3a33-4680-854b-776f4480fd85">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="22242c19-684d-4b78-a4d1-c27475d77bf1">
           <CubeDimensionID>Bus</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="240a3b39-298e-46af-8078-4f395e8170c0">
+            <Attribute dwd:design-time-name="0e4d0143-eda5-418c-b8ee-2d6a61054cb2">
+              <AttributeID>ID Bus</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="8e21fed7-f733-4269-974a-587aa5078b6f">
+                <KeyColumn dwd:design-time-name="25d3f9b8-011e-44f0-ae6c-fb76b3f56553">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e2611120-b01a-4393-90c3-aeaaf5f7cb1f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9291ac45-b3d5-4cef-9f19-a2c46e265e8e">
                     <TableID>dbo_Rout</TableID>
                     <ColumnID>id_bus</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
-              <AttributeID>ID Bus</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="76f0108d-f50b-4174-afff-70b68bd0586b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f08d4855-c6f6-48bd-8d36-d4a6de2c9e6f">
           <CubeDimensionID>Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="90410786-2984-4939-a150-f083e410a45c">
+            <Attribute dwd:design-time-name="98a57614-5e56-4865-90ce-3d04274defa4">
+              <AttributeID>ID Customer</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="24909f27-a421-40fe-a2fe-3fe9af70839a">
+                <KeyColumn dwd:design-time-name="a1e17400-e9dd-4d29-936d-71149ef255ad">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05922d69-ce2d-4e84-91e5-4ce2958f609a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ded9d34f-2128-4402-8cbc-71cc04cf18de">
                     <TableID>dbo_Rout</TableID>
                     <ColumnID>id_customer</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
-              <AttributeID>ID Customer</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
@@ -239,4 +247,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
+  <Source dwd:design-time-name="89cf9aea-082b-47f6-9b63-8beaa718037c">
+    <DataSourceViewID>Transportation</DataSourceViewID>
+  </Source>
 </Cube>

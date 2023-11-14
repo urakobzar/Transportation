@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74353d35-9a15-4155-9ff5-91b7d1c633f0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d90356ee-0df5-4b8c-86b1-a0504a10edf5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Bus</ID>
   <Name>Bus</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4565" scrolltop="-5477" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12171" y="14526" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-892" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12171" y="14526" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Bus" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Bus" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
             </control>
@@ -29,6 +29,37 @@
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Seats" left="7524" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3201" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000810c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Seats" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="202" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="5104" height="1334" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Bus__id_seats__2A4B4B5E]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="10" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7524" y="601" />
+              <point x="5272" y="601" />
+              <point x="5272" y="1236" />
+              <point x="3020" y="1236" />
+            </connector>
           </ddscontrol>
         </dds>
       </Value>
@@ -47,11 +78,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-4565</Value>
+      <Value>-892</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5477</Value>
+      <Value>-5000</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -65,92 +96,101 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="140">
+            <Shape Id="ID Bus" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Bus" />
+                <Attribute Id="Number" />
+                <Attribute Id="Seat Places" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Issue Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Issue Year" />
+              </Attributes>
+              <Position x="200" y="20" />
+            </Shape>
+            <Shape Id="Общее Число Мест" Expanded="false">
+              <Attributes>
+                <Attribute Id="Общее Число Мест" />
+              </Attributes>
+              <Position x="200" y="68" />
+            </Shape>
+            <Shape Id="Brand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand" />
+              </Attributes>
+              <Position x="200" y="116" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9733ab47-f896-461f-8648-88f3d7fb2860">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="153ad131-43d5-4e02-b35b-1d952597891f">
     <DataSourceViewID>Transportation</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="6d1ed40c-cae6-40fb-b7c0-ad5962743660">
+  <ErrorConfiguration dwd:design-time-name="a2f85cb8-d73c-4291-9635-c515e53c126a">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="216eabfd-0fd5-4066-9cbc-ca55eb06504a">
+    <Attribute dwd:design-time-name="469e8f3c-1a53-4fbb-8a8a-590b43c38639">
       <ID>ID Bus</ID>
       <Name>ID Bus</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="68aa2ef7-4025-41f2-8e89-02fc266e57cd">
+        <KeyColumn dwd:design-time-name="243c1915-a4ae-4a93-91ca-ee0fcfeb8d07">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3dd5702-a328-4c6e-9685-0219336b242a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9278a10e-2796-4e60-8fcb-f95f94ee808c">
             <TableID>dbo_Bus</TableID>
             <ColumnID>ID_bus</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8d1184f5-e111-4e2a-af92-7982506adb99">
-          <AttributeID>Id Seats</AttributeID>
-          <Name>Id Seats</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9df3a139-ae7e-48bc-9d5a-d1eafed5612d">
-          <AttributeID>Id Driver</AttributeID>
-          <Name>Id Driver</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ab458d10-7962-4fdf-a8e5-fd0234f8fb14">
+        <AttributeRelationship dwd:design-time-name="8b84a2da-a0a6-4f1e-a3bd-d4b618b34499">
           <AttributeID>Number</AttributeID>
           <Name>Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c9d53680-79fd-4949-8b37-a670cb57731c">
+          <AttributeID>Seat Places</AttributeID>
+          <Name>Seat Places</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b0c436dc-3918-4c40-a646-c274c1f11633">
+          <AttributeID>Brand</AttributeID>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2c2ddbb9-6cce-4f1f-a8c7-b43a3f2f5a76">
+          <AttributeID>Общее Число Мест</AttributeID>
+          <Name>Общее Число Мест</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="abb22eac-740d-461f-b9c6-5471b5dc98b4">
+          <AttributeID>Issue Year</AttributeID>
+          <Name>Issue Year</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a3e03b10-9a0f-41c8-b79c-258f963cb09b">
-      <ID>Id Seats</ID>
-      <Name>Id Seats</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="63f51029-e137-489a-aeed-ada4a562601f">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cf21a9c0-f4d0-4bbf-8a5e-d6d09f889769">
-            <TableID>dbo_Bus</TableID>
-            <ColumnID>id_seats</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="43952e9e-0c91-45cd-93ab-973b181e062f">
-      <ID>Id Driver</ID>
-      <Name>Id Driver</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="57d033ad-7a02-4de5-803d-a8c324b4d29f">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="16f96f24-5806-4eb3-8642-3451ac53b0a8">
-            <TableID>dbo_Bus</TableID>
-            <ColumnID>id_driver</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="b0e75b8c-a9a9-4e46-b143-fab0fdb4f857">
+    <Attribute dwd:design-time-name="f4b2d924-b7ba-40eb-a9c4-d3bfcc4c6f58">
       <ID>Number</ID>
       <Name>Number</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ed399773-a22f-44e5-b94c-06f2727e5e69">
+        <KeyColumn dwd:design-time-name="f45ae5f2-59b7-4be0-804d-ee8d43e1ef54">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0bcbd9e0-6060-48bf-92cd-14417c7e2efc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d630414-59b5-4a57-bdae-3ca385ffe91b">
             <TableID>dbo_Bus</TableID>
             <ColumnID>number</ColumnID>
           </Source>
@@ -159,6 +199,95 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="63fbcbbe-3c6e-4b20-a8aa-68bcee2dd773">
+      <ID>Seat Places</ID>
+      <Name>Seat Places</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="22845916-1034-4029-a3c3-6dab9e14b74c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a01b73c4-1412-460c-8852-76b08dd6ae65">
+            <TableID>dbo_Seats</TableID>
+            <ColumnID>seat_places</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="836041b9-e7e4-4165-960a-577b9a5bdc43">
+      <ID>Brand</ID>
+      <Name>Brand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f9107ea-7470-4037-b365-8555cf6dbcf0">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ebf2840-e4bd-4b5c-b09f-3d53bbd048de">
+            <TableID>dbo_Bus</TableID>
+            <ColumnID>brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="392340b7-f783-490f-961c-cc6044df446b">
+      <ID>Общее Число Мест</ID>
+      <Name>Общее Число Мест</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c82ff1b6-b6ea-465e-b57a-51c80d5e575c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5f275a8-c30b-45fe-a1bd-3cf6c86fe20a">
+            <TableID>dbo_Seats</TableID>
+            <ColumnID>Общее_x0020_число_x0020_мест</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="280c0b27-3ab1-45fe-98e1-f1b926e9e3cb">
+      <ID>Issue Year</ID>
+      <Name>Issue Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9142f2d8-6adf-4f23-b5d1-634bfc02bc89">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="623f8c87-c872-416a-bc01-046eb03f21a0">
+            <TableID>dbo_Bus</TableID>
+            <ColumnID>issue_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e9fc2e74-446e-4b88-92ef-61c4e26bcab3">
+      <ID>Иерархия</ID>
+      <Name>Иерархия</Name>
+      <Levels>
+        <Level dwd:design-time-name="4da60810-aaf2-4435-8185-a0f6387cda1c">
+          <ID>ID Bus</ID>
+          <Name>ID Bus</Name>
+          <SourceAttributeID>ID Bus</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="48d5d3a5-e920-4571-9dba-6ff8480ba09b">
+          <ID>Brand</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5409da66-15ef-4da3-a432-2abc7e4189b8">
+          <ID>Issue Year</ID>
+          <Name>Issue Year</Name>
+          <SourceAttributeID>Issue Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e53bab3d-73b0-49b4-b9d4-82667a342c3a">
+          <ID>Общее Число Мест</ID>
+          <Name>Общее Число Мест</Name>
+          <SourceAttributeID>Общее Число Мест</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="44092d42-629c-4f20-8e4b-8906c8f80278" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0ffdbd4d-559f-4432-8fad-e5c508e324a3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>BusDriver</ID>
   <Name>BusDriver</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,26 +42,34 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source dwd:design-time-name="58c4d53b-8c2a-4a0f-ab37-eb524a5eeb26">
-    <DataSourceViewID>Transportation</DataSourceViewID>
-  </Source>
   <Dimensions>
-    <Dimension dwd:design-time-name="3a7a19ab-8c95-48b0-939c-3c5ee9bb5112">
+    <Dimension dwd:design-time-name="0c3df9ea-ead7-487e-ace5-aa0579735717">
       <ID>Driver</ID>
       <Name>Driver</Name>
       <DimensionID>Driver</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b865c115-0ed6-4602-aca4-b2f0070a7f1a">
+        <Attribute dwd:design-time-name="a15d53b8-76c4-472c-8da8-9976cccef5ec">
           <AttributeID>ID Driver</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="287746e7-b497-4255-a38b-acbfef00710b">
+        <Attribute dwd:design-time-name="ba937b91-6d5a-4b0a-9b5b-4c9583ae2dc7">
           <AttributeID>Surname</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="8fae9646-300c-42de-8102-308852a90394">
+          <AttributeID>Год Рождения Водителя</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13867d4a-d93c-4e59-ae52-358d0a9e0777">
+          <AttributeID>Полное Имя</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="26b035e1-607d-44dc-8bc7-8e26a2c54b94">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="db16c413-3719-4f60-90d3-d964e409b481">
+    <MeasureGroup dwd:design-time-name="7de05322-9243-4101-98d1-b1d72b0992d6">
       <ID>Bus</ID>
       <Name>Bus</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -69,47 +77,47 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="b7ec6643-9315-4b6a-be48-ae44d5960fbb">
+        <Measure dwd:design-time-name="7b30d615-f72f-411c-8ca2-79183fc0ef3c">
           <ID>Issue Year</ID>
           <Name>Issue Year</Name>
-          <Source dwd:design-time-name="4e11c8f9-0932-4908-ab0d-d29fc08fd6d7">
+          <Source dwd:design-time-name="5b8474ad-3cfa-4750-82e1-b002c34cf09b">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="08eb0f05-e4c1-4902-bb81-6b94fe41410b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c6669cc-80f8-48a1-9342-a65904c15e85">
               <TableID>dbo_Bus</TableID>
               <ColumnID>issue_year</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b8970a58-10fe-4f1c-a928-e6de2225762b">
+        <Measure dwd:design-time-name="3db44ee6-34ca-4736-a0d3-b646f215a7f2">
           <ID>Число Bus</ID>
           <Name>Число Bus</Name>
-          <Source dwd:design-time-name="ef9e3119-59c7-4767-a959-3aaeaf832f07">
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="fd8f630a-28e2-46f0-afd9-ddc583df036e">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2c01c0f4-70bd-4835-99a2-ca15574066ea">
+            <Source xsi:type="RowBinding" dwd:design-time-name="360e51df-4957-443b-9942-980124120a1e">
               <TableID>dbo_Bus</TableID>
             </Source>
           </Source>
-          <AggregateFunction>Count</AggregateFunction>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db913707-0dd1-4023-bbc4-59ff8a19a94e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d782a0d8-b438-4d91-b47b-e6b4890e9153">
           <CubeDimensionID>Driver</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6cdabcd3-e6c5-49b5-a5ba-19519bcc6974">
+            <Attribute dwd:design-time-name="389f7ae5-530c-49a3-8ee7-c7ba84e54fa9">
+              <AttributeID>ID Driver</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="93d7c85a-81da-43c9-a29c-2b245deba8ee">
+                <KeyColumn dwd:design-time-name="6ff63210-98dd-46c6-b241-0a0e41440e1a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="df61e880-40b0-4235-83c5-1aa4cfffc294">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0accd4cc-a6ca-4ed7-9afb-5cb161178b70">
                     <TableID>dbo_Bus</TableID>
                     <ColumnID>id_driver</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
-              <AttributeID>ID Driver</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
@@ -118,4 +126,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
+  <Source dwd:design-time-name="72a9ba0e-e010-45bd-abc0-7f72f788f9b6">
+    <DataSourceViewID>Transportation</DataSourceViewID>
+  </Source>
 </Cube>
