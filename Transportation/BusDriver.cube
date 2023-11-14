@@ -1,0 +1,121 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="44092d42-629c-4f20-8e4b-8906c8f80278" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BusDriver</ID>
+  <Name>BusDriver</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source dwd:design-time-name="58c4d53b-8c2a-4a0f-ab37-eb524a5eeb26">
+    <DataSourceViewID>Transportation</DataSourceViewID>
+  </Source>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3a7a19ab-8c95-48b0-939c-3c5ee9bb5112">
+      <ID>Driver</ID>
+      <Name>Driver</Name>
+      <DimensionID>Driver</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b865c115-0ed6-4602-aca4-b2f0070a7f1a">
+          <AttributeID>ID Driver</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="287746e7-b497-4255-a38b-acbfef00710b">
+          <AttributeID>Surname</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="db16c413-3719-4f60-90d3-d964e409b481">
+      <ID>Bus</ID>
+      <Name>Bus</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b7ec6643-9315-4b6a-be48-ae44d5960fbb">
+          <ID>Issue Year</ID>
+          <Name>Issue Year</Name>
+          <Source dwd:design-time-name="4e11c8f9-0932-4908-ab0d-d29fc08fd6d7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="08eb0f05-e4c1-4902-bb81-6b94fe41410b">
+              <TableID>dbo_Bus</TableID>
+              <ColumnID>issue_year</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b8970a58-10fe-4f1c-a928-e6de2225762b">
+          <ID>Число Bus</ID>
+          <Name>Число Bus</Name>
+          <Source dwd:design-time-name="ef9e3119-59c7-4767-a959-3aaeaf832f07">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2c01c0f4-70bd-4835-99a2-ca15574066ea">
+              <TableID>dbo_Bus</TableID>
+            </Source>
+          </Source>
+          <AggregateFunction>Count</AggregateFunction>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db913707-0dd1-4023-bbc4-59ff8a19a94e">
+          <CubeDimensionID>Driver</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6cdabcd3-e6c5-49b5-a5ba-19519bcc6974">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="93d7c85a-81da-43c9-a29c-2b245deba8ee">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="df61e880-40b0-4235-83c5-1aa4cfffc294">
+                    <TableID>dbo_Bus</TableID>
+                    <ColumnID>id_driver</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>ID Driver</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

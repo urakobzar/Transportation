@@ -6,6 +6,46 @@
     <Name>Transportation.database</Name>
     <FullPath>Transportation.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Rout.cube</Name>
+      <FullPath>Rout.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Rout.partitions</Name>
+          <FullPath>Rout.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BusDriver.cube</Name>
+      <FullPath>BusDriver.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BusDriver.partitions</Name>
+          <FullPath>BusDriver.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Rout.dim</Name>
+      <FullPath>Rout.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Driver.dim</Name>
+      <FullPath>Driver.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Bus.dim</Name>
+      <FullPath>Bus.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Transportation.ds</Name>
