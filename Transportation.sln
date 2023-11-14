@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Transportation", "Transportation\Transportation.dwproj", "{00221E48-35B8-4F28-8442-EFCB3D199185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00221E48-35B8-4F28-8442-EFCB3D199185}.Development|Default.ActiveCfg = Development
+		{00221E48-35B8-4F28-8442-EFCB3D199185}.Development|Default.Build.0 = Development
+		{00221E48-35B8-4F28-8442-EFCB3D199185}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9F7013-B07E-43CE-9122-B5B9535DED68}
+	EndGlobalSection
+EndGlobal
