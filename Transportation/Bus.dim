@@ -105,7 +105,6 @@
               <Attributes>
                 <Attribute Id="ID Bus" />
                 <Attribute Id="Number" />
-                <Attribute Id="Seat Places" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -115,17 +114,17 @@
               </Attributes>
               <Position x="200" y="20" />
             </Shape>
+            <Shape Id="Brand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand" />
+              </Attributes>
+              <Position x="380" y="20" />
+            </Shape>
             <Shape Id="Общее Число Мест" Expanded="false">
               <Attributes>
                 <Attribute Id="Общее Число Мест" />
               </Attributes>
               <Position x="200" y="68" />
-            </Shape>
-            <Shape Id="Brand" Expanded="false">
-              <Attributes>
-                <Attribute Id="Brand" />
-              </Attributes>
-              <Position x="200" y="116" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -162,19 +161,11 @@
           <AttributeID>Number</AttributeID>
           <Name>Number</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c9d53680-79fd-4949-8b37-a670cb57731c">
-          <AttributeID>Seat Places</AttributeID>
-          <Name>Seat Places</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b0c436dc-3918-4c40-a646-c274c1f11633">
-          <AttributeID>Brand</AttributeID>
-          <Name>Brand</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="2c2ddbb9-6cce-4f1f-a8c7-b43a3f2f5a76">
           <AttributeID>Общее Число Мест</AttributeID>
           <Name>Общее Число Мест</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="abb22eac-740d-461f-b9c6-5471b5dc98b4">
+        <AttributeRelationship dwd:design-time-name="bfb0bcfb-022e-4f41-b060-ecf3b1822c81">
           <AttributeID>Issue Year</AttributeID>
           <Name>Issue Year</Name>
         </AttributeRelationship>
@@ -193,21 +184,6 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="1d630414-59b5-4a57-bdae-3ca385ffe91b">
             <TableID>dbo_Bus</TableID>
             <ColumnID>number</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="63fbcbbe-3c6e-4b20-a8aa-68bcee2dd773">
-      <ID>Seat Places</ID>
-      <Name>Seat Places</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="22845916-1034-4029-a3c3-6dab9e14b74c">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a01b73c4-1412-460c-8852-76b08dd6ae65">
-            <TableID>dbo_Seats</TableID>
-            <ColumnID>seat_places</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -249,14 +225,36 @@
       <ID>Issue Year</ID>
       <Name>Issue Year</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9142f2d8-6adf-4f23-b5d1-634bfc02bc89">
+        <KeyColumn dwd:design-time-name="8c9bb453-e61e-49aa-8db4-b823616805af">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="623f8c87-c872-416a-bc01-046eb03f21a0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80cc041e-3866-45a8-ae30-7e12748471cd">
             <TableID>dbo_Bus</TableID>
             <ColumnID>issue_year</ColumnID>
           </Source>
         </KeyColumn>
+        <KeyColumn dwd:design-time-name="3b4b69ff-c45c-46c1-9c3d-f0867f372a6d">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b549b9df-278a-4bb8-97cf-174e01805d2d">
+            <TableID>dbo_Bus</TableID>
+            <ColumnID>brand</ColumnID>
+          </Source>
+        </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="1a4edda8-078d-4be3-bca4-d6cf23c16c15">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="123e1bb0-5e18-4a1c-88eb-a553afab031d">
+          <TableID>dbo_Bus</TableID>
+          <ColumnID>issue_year</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b6707320-a7ec-4d26-9f06-74d650fbb570">
+          <AttributeID>Brand</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -264,13 +262,8 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="e9fc2e74-446e-4b88-92ef-61c4e26bcab3">
       <ID>Иерархия</ID>
-      <Name>Иерархия</Name>
+      <Name>Принадлежность автобуса</Name>
       <Levels>
-        <Level dwd:design-time-name="4da60810-aaf2-4435-8185-a0f6387cda1c">
-          <ID>ID Bus</ID>
-          <Name>ID Bus</Name>
-          <SourceAttributeID>ID Bus</SourceAttributeID>
-        </Level>
         <Level dwd:design-time-name="48d5d3a5-e920-4571-9dba-6ff8480ba09b">
           <ID>Brand</ID>
           <Name>Brand</Name>

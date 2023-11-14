@@ -138,9 +138,6 @@
         <Attribute dwd:design-time-name="c986ff1b-3623-4807-a481-ef6e0422448a">
           <AttributeID>Number</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4a02609a-8245-40f7-bdbd-fcee8a64b1d7">
-          <AttributeID>Seat Places</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="cf439552-72d2-45eb-befd-54a3eb242f2d">
           <AttributeID>Brand</AttributeID>
         </Attribute>
