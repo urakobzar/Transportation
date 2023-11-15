@@ -301,6 +301,19 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="39900810-92f5-4d8d-a02d-8a27e708479a">
+          <CubeDimensionID>Driver</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6b244b4c-d990-48b3-a82d-37e91e6e0ae5">
+              <AttributeID>ID Driver</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Bus</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Id Driver</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
